@@ -1,14 +1,14 @@
-# Sliding Puzzle 4x4
+# Patch Logic
 
-Game puzzle sederhana yang nyaman dimainkan di browser HP.
+Puzzle block original untuk mobile browser. Pilih satu dari tiga bentuk lalu tempatkan pada papan 8×8. Baris atau kolom penuh akan dibersihkan dan memberi bonus skor.
 
-## Cara bermain
-Tap angka yang berada di sebelah kotak kosong. Susun angka 1 sampai 15 secara berurutan.
+## Cara main
+1. Pilih bentuk di bawah papan.
+2. Tap sel papan sebagai titik awal bentuk.
+3. Isi satu baris atau kolom penuh untuk menghapusnya.
+4. Game berakhir ketika tidak ada bentuk tersisa yang bisa ditempatkan.
 
 ## Menjalankan
-Buka `index.html` di browser. Tidak membutuhkan dependency atau build step.
+Buka `index.html` di browser. Tidak ada dependency atau build step.
 
-## Struktur
-- `index.html` — tampilan
-- `style.css` — desain responsif
-- `game.js` — logika puzzle, shuffle, langkah, dan kondisi menang
+Project ini menggunakan mekanik puzzle generik dan aset/desain original.
